@@ -27,5 +27,29 @@ for num in List:
 print('These numbers are found in List: ',NumFound)
 
 #PROBLEM 3
+Customer = {"FirstName":"Ali",
+           "LastName":"Abdul Razzaq",
+           "Mobile":"0322",
+           "FirstName":"Ahmed",
+           "LastName":"Ali",
+           "Mobile":"0333",
+           "FirstName":"Yasir",
+           "LastName":"Aziz",
+           "Mobile":"0321"}
+print(Customer["FirstName"])
 #PROBLEM 4
+Total =[]
+Customer = {"FirstName":"Ali",
+           "LastName":"Abdul Razzaq",
+           "Amount":"10",
+           "FirstName":"Ahmed",
+           "LastName":"Ali",
+           "Amount":"10",
+           "FirstName":"Yasir",
+           "LastName":"Aziz",
+           "Amount":"10"}
+for num in Customer["Amount"].Value:
+     ##Total.append(num)
+     print(str(num))
+
 #PROBLEM 5
