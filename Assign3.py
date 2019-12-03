@@ -37,19 +37,19 @@ Customer = {"FirstName":"Ali",
            "LastName":"Aziz",
            "Mobile":"0321"}
 print(Customer["FirstName"])
+
 #PROBLEM 4
-Total =[]
+summ = 0
 Customer = {"FirstName":"Ali",
            "LastName":"Abdul Razzaq",
-           "Amount":"10",
-           "FirstName":"Ahmed",
-           "LastName":"Ali",
-           "Amount":"10",
-           "FirstName":"Yasir",
-           "LastName":"Aziz",
-           "Amount":"10"}
-for num in Customer["Amount"].Value:
-     ##Total.append(num)
-     print(str(num))
+           "Amount":10,
+           "Amounts":50,
+           "Amountss":70}
+for key, value in Customer.items():
+        try:
+            summ +=value
+        except:
+            pass
+print("Sum of Numeric Values is :",summ)   
 
 #PROBLEM 5
