@@ -53,3 +53,25 @@ for key, value in Customer.items():
 print("Sum of Numeric Values is :",summ)   
 
 #PROBLEM 5
+mylist = [1,2,5,9,8,6,2,2,3,4,5,6]
+_size= len(mylist)
+repeated =[]
+for i in range(_size):
+    k= i + 1
+    for j in range(k,_size):
+        if mylist[i] == mylist[j] and mylist[i] not in repeated:
+            repeated.append(mylist[i])
+print("Duplicate values in list are : ",repeated)
+
+#PROBLEM 6
+
+Check_Key = "Amount"
+Customer = {"FirstName":"Ali",
+           "LastName":"Abdul Razzaq",
+           "Amount":10,
+           "Amounts":50,
+           "Amountss":70}
+if inp_var in Customer.keys():
+    print("Given key exist in dictionary :",inp_var)
+else:
+    print("Given key doesn't exist in dictionary.")
